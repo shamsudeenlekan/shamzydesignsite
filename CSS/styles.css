@@ -1,0 +1,152 @@
+body {
+  line-height: 2px;
+  margin: 0px;
+  background-color: aliceblue;
+  text-align: center;
+  font-family: 'merriweather',serif;
+}
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'sacramento', cursive;
+}
+h2 {
+  color: #66BFBF;
+  font-family: 'montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding-bottom: 1%;
+}
+h3 {
+  color: #66BFBF;
+  font-family: 'montserrat', sans-serif;
+}
+p {
+  color: #66BFBF;
+
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #66BFBF;
+    border-width: 5px;
+    width: 30%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+  }
+
+/****************************CLASS SELECTORS********************/
+
+.top-container {
+    background-color: #CDF0EA;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+
+}
+.bottom-container {
+padding: 20px;
+}
+.pr{
+ padding-top: 3%;
+}
+.pro{
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right: 270px;
+  top: 30px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.shamsudeen {
+  text-decoration: underline;
+}
+.skills-img {
+
+}
+.love-img {
+
+}
+.ok-body {
+  background-color: blue;
+}
+.contact-me {
+
+}
+.contact-message {
+  width: 40;
+  margin: 40 auto 60;
+}
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer {
+  padding-top: 3%;
+}
+.ft {
+  padding: 0.4%;
+}
+
+@media (max-width: 1024px) {
+  hr {
+  padding: 1%;
+  }
+  h3 {
+    padding-bottom: ;
+    padding-top: ;
+  }
+  .pr {
+    padding: 3%;
+  }
+  .im-h1 {
+    padding-bottom: 4%;
+  }
+  .top-container {
+    padding: ;
+  }
+  .mountain-img {
+    padding-left: 0;
+    width: 100%;
+  }
+  .top-cloud {
+    width: 25%;
+  }
+  .bottom-cloud {
+    margin: 0%;
+    width: 25%;
+  }
+  .pro {
+    padding: 1%;
+  }
+}
